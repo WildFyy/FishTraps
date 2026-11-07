@@ -1,0 +1,2 @@
+execute at @e[type=minecraft:armor_stand, tag=fish_trap] if predicate fish_traps:is_in_water run particle minecraft:bubble ~ ~0.8 ~ 0.1 0.1 0.1 0.2 1
+schedule function fish_traps:fish_trap_particles 1s

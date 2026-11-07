@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": false,
+  "category": "equipment",
+  "pattern": [
+    "BBB",
+    "ACA",
+    "BBB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:string"
+    },
+    "B": {
+      "tag": "fish_traps:fish_trap_sticks"
+    },
+    "C": {
+      "tag": "fish_traps:fish_trap_baits"
+    }
+  },
+  "result": {
+    "id": "minecraft:armor_stand",
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:armor_stand",
+        "Tags": [
+          "fish_trap"
+        ],
+        "NoBasePlate": true,
+        "ShowArms": false,
+        "DisabledSlots": 16191,
+        "CustomName": "{\"text\":\"Fish trap\"}"
+      },
+      "minecraft:custom_name": "{\"text\":\"Fish trap\", \"italic\":false}",
+      "minecraft:lore": [
+        "{\"text\":\"Place it to set up a fish trap\", \"color\":\"gray\", \"italic\":false}",
+        "{\"text\":\"\"}",
+        "[{\"text\":\"Produces fishing loot every \", \"color\":\"dark_gray\", \"italic\":false},{\"text\":\"90 seconds\", \"color\":\"aqua\", \"italic\":false}]",
+        "[{\"text\":\"Fish traps only work when placed in \", \"color\":\"dark_gray\", \"italic\":false},{\"text\":\"water\", \"color\":\"blue\", \"italic\":false}]"
+      ]
+    },
+    "count": 1
+  }
+}
