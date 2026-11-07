@@ -32,5 +32,5 @@ The fish trap won't drop itself, it will drop a regular armor stand instead (if 
 ## Uninstalling  
 
 You can remove the datapack safely. Existing items and fish traps will remain but they will no longer work. If you reisntall the datapack, they will work again.  
-You can kill all the placed fish traps using tis command :  
+You can kill all the placed fish traps using this command :  
 ```/kill @e[type=minecraft:armor_stand,tag=fish_trap]```
